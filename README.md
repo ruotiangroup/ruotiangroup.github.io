@@ -1,19 +1,12 @@
-# 5iux.github.io
+基于5iux改的静态版本。
+作者:D.Young
+主页：https://blog.5iux.cn/
+github：https://github.com/5iux/5iux.github.io
+日期：2021-08-02
+修改者：ruotian
+声明：本网站为开源软件编辑。
+版权所有，请勿删除
 
-
-很多朋友喜欢静态版本，今天给大家放出个（原来的php版还维护）   
-
-喜欢的可自行设置主页，或者自己下载源码修改
-
-图标基于[iconfont](https://www.iconfont.cn/)   
-需要自定义图标，登录iconfont网站自建项目即可（伸手党请关闭当前页面）   
-
-
-
-![图](https://cdn.jsdelivr.net/gh/5iux/uploads/pic/20210817115329.gif)   
-
-
-![图](https://cdn.jsdelivr.net/gh/5iux/uploads/pic/20210817115705.gif)   
 
      
 
