@@ -96,6 +96,66 @@ https://www.qweather.com/
 请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是本网站用户名及密码发生泄露，请您立即联络本网站客服，以便本网站采取相应措施。
 
 联系我们：rtgp@foxmail.com
-                                                                                                
-  Ruotian Group 若天搜索 
+
+
+Privacy Policy (Enabled on August 4, 2022 Time Zone: UTC+08.00)
+Ruotian (hereinafter referred to as "this website") respects and protects the personal privacy of all users of the service. In order to provide you with more accurate and personalized services, this website will use and disclose your personal information in accordance with the provisions of this privacy policy. However, this website will treat such information with a high degree of diligence and prudence. Unless otherwise specified in this privacy policy, this website will not disclose such information to the public or provide it to a third party without your prior permission. This website will update this privacy policy from time to time. When you agree to the service use agreement of this website, you will be deemed to have agreed to all the contents of this privacy policy. This privacy policy is an integral part of this website service use agreement. The source code of this site is from Github open source project. © 2022 ruotian.  All rights reserved.  
+The birth of Ruotian Search is inseparable from 5iux and more open source software
+catalog:
+1. Scope of application
+2. Use of information
+3. Information disclosure
+4. Information storage and exchange
+5. Cookie usage
+6. Information Security
+7. Use of api
+8. Changes to this Privacy Policy
+1. Scope of application
+(a) When you use the network service of this website or visit the platform webpage of this website, this website automatically receives and records the information on your browser and computer, including but not limited to your IP address, browser type, language used, access date and time, software and hardware feature information and the webpage record you need;
+You understand and agree that the following information is not applicable to this privacy policy:
+(a) Relevant information and data collected by this website that you publish on this website, including but not limited to participation activities, transaction information and evaluation details;
+(b) Violation of laws and regulations or rules of this website and the measures taken by this website against you.
+2. Use of information
+(a) This website will not provide, sell, rent, share or trade your personal information to any unrelated third party, unless you have obtained your permission in advance, or the third party and this website (including the website's affiliated groups) provide services for you individually or jointly, and after the service ends, they will be prohibited from accessing all these materials, including those they can access before.
+(b) This website also does not allow any third party to collect, edit, sell or distribute your personal information for free by any means. If any user of this website platform engages in the above activities, once found, this website has the right to immediately terminate the service agreement with the user.
+(c) We need your IP address to be Hefeng weather location to provide you with your local weather conditions. If you do not agree, please exit immediately.
+3. Information disclosure
+Under the following circumstances, this website will disclose all or part of your personal information according to your personal will or legal provisions:
+(a) Disclosure to a third party with your prior consent;
+(b) To provide the products and services you require, you must share your personal information with a third party;
+(c) Disclose to a third party or administrative or judicial authorities according to relevant provisions of laws or requirements of administrative or judicial authorities;
+(d) If you violate the relevant laws and regulations of China or the service agreement or relevant rules of this website, you need to disclose to a third party;
+(e) If you are a qualified intellectual property complainant and have filed a complaint, you should disclose it to the respondent at the request of the respondent so that both parties can handle possible rights disputes;
+(f) In a transaction created on the platform of this website, if any party to the transaction performs or partially performs the transaction obligations and requests information disclosure, this website has the right to decide to provide the user with the necessary information such as the contact information of the counterparty to facilitate the completion of the transaction or the settlement of disputes.
+(g) Other disclosures that this website deems appropriate according to laws, regulations or website policies.
+4. Information storage and exchange
+The information and materials about you collected by this website will be saved on the servers of this website and/or its affiliated groups, and these information and materials may be transmitted to your country, region or abroad where the information and materials collected by this website are located, and accessed, stored and displayed overseas.
+5. Cookie usage
+(a) If you do not refuse to accept cookies, this website will set or access cookies on your computer so that you can log in or use the website platform services or functions that depend on cookies. Cookies on this website can provide you with more considerate personalized services, including promotion services.
+(b) You have the right to accept or reject cookies. You can refuse to accept cookies by modifying your browser settings. However, if you choose to refuse to accept cookies, you may not be able to log in or use the web services or functions of this website that depend on cookies.
+(c) This policy will apply to the information obtained through the cookies set up on this website.
+6. Information Security
+(a) The account of this website has security protection function. Please keep your user name and password information properly. This website will ensure that your information will not be lost, abused or altered through encryption of user passwords and other security measures. Despite the aforementioned security measures, please note that there are no "perfect security measures" on the information network.
+(b) When using this website's network services to conduct online transactions, you will inevitably send personal information to the counterparty or potential counterparty, and we will try our best to protect your rights from infringement.
+7. Use of api
+Baidu search engine
+api： https://www.baidu.com/s?wd=
+Google search engine
+api： https://www.google.com.hk/search?hl=zh -CN&q=
+Github search engine
+api： https://github.com/search?q=
+NAVER search engine
+api： https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=
+Bing Search Engine
+api： https://cn.bing.com/search?q=
+Breezy weather
+https://www.qweather.com/                          
+8. Changes to this Privacy Policy
+(a) If we decide to change the privacy policy, we will publish these changes in this policy, on the Group's website and where we think appropriate, so that you can understand how we collect and use your personal information, who can access it, and under what circumstances we will disclose it.
+(b) The Group reserves the right to modify this policy at any time, so please check it frequently. In case of any significant change to this policy, the Group will notify it through website notification.
+Please protect your personal information properly and provide it to others only when necessary. If you find that your personal information is leaked, especially the user name and password of this website are leaked, please contact our customer service immediately so that this website can take corresponding measures.
+contact us: rtgp@foxmail.com
+
+
+       Ruotian Group 若天搜索 
 
