@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<link rel="icon" href="https://gw.ruotian.top/RT191%20192.png" sizes="32x32">
+<link rel="icon" href="https://gw.ruotian.top/RT191%20192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://gw.ruotian.top/RT191%20192.png">
+<meta name="msapplication-TileImage" content="https://gw.ruotian.top/RT191%20192.png">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>若天抽奖</title>
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+<style>
+*{margin:0;padding:0;}
+img{display:block;}
+i{font-style:normal;}
+.vetically{justify-content:center;align-items:center;display:-webkit-flex;}
+.prize_con{position: absolute;width: 100%;height: 100%;background: url(images/firstp_bg.jpg) no-repeat left top / 100% 100%;overflow: hidden;}
+.prize_grade{font-size:98px;color: #ffe9af;text-align: center;margin: 60px auto 0;}
+.prize_list{width:55%;height:230px;margin: 20px auto 55px;text-align: center;overflow: hidden;}
+.prize_list ul{width:100%;font-size:0;}
+.prize_list li{display:inline-block;font-size:45px;color:#f1bf90;text-align: center;width:20%;line-height:100px;font-family:Arial;}
+.start{width: 250px;height: 90px;margin:0 auto;cursor:pointer;}
+.prize_set{position: absolute;right: 60px;bottom:140px;font-size: 16px;color: #f7f3e8;line-height: 30px;}
+.prize_set li{display: inline-block;margin-left: 20px;}
+.set_grade select,.set_people input, .set_money input{background: #fff;width:110px;height:36px;border:1px solid #8f0000;margin-left: .1rem;color: #000;padding-left:10px;}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <div class="prize_con">
+      <p class="prize_grade"><span>开始抽奖</span>
+        <div class="prize_list vetically">
+          <ul>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+            <li>000</li>
+          </ul>
+        </div>
+      <p class="start"><img src="images/prize_start.png" alt=""></p>
+      <ul class="prize_set">
+          <li class="set_grade">奖等
+            <select id="set_grade">
+              <option>选择奖等</option>
+              <option>选择一下奖等(这项为测试)</option>
+              <option>一等奖</option>
+              <option>二等奖</option>
+              <option>三等奖</option>
+            </select>
+          </li>
+          <li class="set_people"><input type="tel" style="display:none" placeholder="输入中奖人数" id="prizeCount"></li>
+      </ul>
+  </div>
+</div>
+<input type="hidden" value="0" id="prize_btn">
+<script>
+  //请在这里设置特等奖号码
+  var specialNum = 07
+  var myNumber;
+  var arr = [];
+  var code = [1,	2,	3,	4,	5,	6,	7,	8,	9,	10,	11,	12,	13,	14,	15,	16,	17,	18,	19,	20,	21,	22,	23,	24,	25,	26,	27,	28,	29,	30,	31,	32,	33,	34,	35,	36,	37,	38,	39,	40,	41,	42,	43,	44,	45,	46,	47];
+  /*随机所有的code并且不重复*/
+  function showRandomNum(num) {
+    var li = "";
+    for(var i = 0; i < code.length; i++){
+      arr[i] = i;
+    }
+    arr.sort(function(){
+      return 0.5 - Math.random();
+    });
+
+    for(var i = 0; i < num; i++){
+      var index = arr[i];
+      li += '<li>'+code[index]+'</li>';
+    }
+
+    $(".prize_list ul").html(li);
+  }
+
+  $(function () {
+    $(".start").click(function(){
+      if($("#prize_btn").val() == 0){        
+        if($("#set_grade").val() == "选择奖等") {
+            alert("请选择奖等");
+            return;
+        }else{
+          $("#prize_btn").val(1);
+          var num = $("#prizeCount").val();
+          $(this).find("img").attr("src","images/prize_stop.png");
+
+          myNumber = setInterval(function(){
+            showRandomNum(num);
+          }, 30);
+        }        
+      }else{
+        $("#prize_btn").val(0);
+        clearInterval(myNumber);
+          if ($("#set_grade").prop('selectedIndex') == 1){
+              //特等奖指定固定号码
+              $(".prize_list ul").html('<li>'+specialNum+'</li>');
+          }
+        $(this).find("img").attr("src","images/prize_start.png");
+      }      
+    });
+
+    //回车键控制开始和停止
+    $(document).keydown(function (event) {
+        var e = event || window.event || arguments.callee.caller.arguments[0];
+        if (e && e.keyCode == 13) { // enter 键
+            $(".start").click();
+        }
+    });
+
+    $("#set_grade").change(function(){
+      $(".prize_grade span").text($(this).val());
+      console.log($("#set_grade").prop('selectedIndex'))
+        if ($("#set_grade").prop('selectedIndex') == 1 || $("#set_grade").prop('selectedIndex') == 2){
+            //选择特等奖  一等奖 1人
+            $("#prizeCount").val(1);
+			$(".prize_list ul").html('<li>000</li>');
+
+        }if ($("#set_grade").prop('selectedIndex') == 3 || $("#set_grade").prop('selectedIndex') == 4){
+            //选择二等奖  三等奖  5人
+            $("#prizeCount").val(5);
+			$(".prize_list ul").html('<li>000</li>'+'<li>000</li>'+'<li>000</li>'+'<li>000</li>'+'<li>000</li>');
+        }
+    });
+}); 
+</script>
+
+</body>
+</html>
